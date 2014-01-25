@@ -19,7 +19,8 @@ Or install it yourself as:
 ## Usage
 
     Faker::Church.name
-    
+    => "First United Church of Lake Ayana"
+
 ## Contributing
 
 1. Fork it ( http://github.com/<my-github-username>/church_faker/fork )
