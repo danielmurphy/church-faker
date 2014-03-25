@@ -4,7 +4,7 @@ module Faker
     extend self
 
     def job_title
-      "#{level descriptor job}"
+      "#{level} #{descriptor} #{job}"
     end
 
     private
