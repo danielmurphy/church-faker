@@ -1,4 +1,3 @@
-require 'ffaker'
 module Faker
   module Church
     extend ModuleUtils
@@ -24,5 +23,6 @@ module Faker
     DESCRIPTORS = k ["Youth", "Spiritual Formation", "Children's", "Ministry", "Worship", "Preschool", "Connections", "Small Groups", "High School", "Middle School", "Facilities", "Administrative"] unless const_defined? :DESCRIPTORS
     LEVELS = k %w[Senior Central Internal Associate Executive] unless const_defined? :LEVELS
     JOBS = k %w[Intern Minister Assistant Pastor] unless const_defined? :JOBS
+
   end
 end
