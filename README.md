@@ -20,6 +20,9 @@ Or install it yourself as:
 
     Faker::Church.name
     => "First United Church of Lake Ayana"
+    
+    Faker::Church.job_title
+    => "Associate Youth Intern"
 
 ## Contributing
 
