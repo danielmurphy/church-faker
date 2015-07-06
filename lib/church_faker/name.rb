@@ -1,4 +1,4 @@
-module Faker
+module FFaker
   module Church
     extend ModuleUtils
     extend self
@@ -19,7 +19,7 @@ module Faker
     end
 
     def city
-      Faker::Address.city
+      FFaker::Address.city
     end
 
     def cheese_name

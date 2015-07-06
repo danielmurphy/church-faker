@@ -1,4 +1,4 @@
-module Faker
+module FFaker
   module Church
     extend ModuleUtils
     extend self
