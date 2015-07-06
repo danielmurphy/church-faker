@@ -20,9 +20,9 @@ module FFaker
       JOBS.sample
     end
 
-    DESCRIPTORS = k ["Youth", "Spiritual Formation", "Children's", "Ministry", "Worship", "Preschool", "Connections", "Small Groups", "High School", "Middle School", "Facilities", "Administrative"] unless const_defined? :DESCRIPTORS
-    LEVELS = k %w[Senior Central Internal Associate Executive] unless const_defined? :LEVELS
-    JOBS = k %w[Intern Minister Assistant Pastor] unless const_defined? :JOBS
+    LEVELS = k %w[Senior Campus Central Internal Associate Executive] unless const_defined? :LEVELS
+    DESCRIPTORS = k %w[Administrative Children's Connections Creative Facilities High\ School Middle\ School Ministry Preschool Small\ Groups Spiritual\ Formation Worship Youth] unless const_defined? :DESCRIPTORS
+    JOBS = k %w[Assistant Director Intern Minister Pastor] unless const_defined? :JOBS
 
   end
 end
