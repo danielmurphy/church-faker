@@ -4,7 +4,11 @@ module FFaker
     extend self
 
     def job_title
-      "#{level} #{descriptor} #{job}"
+      case rand(3)
+        when 0 then "#{level} #{descriptor} #{job}"
+        when 1 then "#{descriptor} #{job}"
+        when 2 then "#{level} #{job}"
+      end
     end
 
     private
