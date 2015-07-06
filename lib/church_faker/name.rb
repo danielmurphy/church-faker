@@ -31,7 +31,7 @@ module FFaker
     end
 
     NUMBERS = k %w[First Second Third Last Forty-Second] unless const_defined? :NUMBERS
-    CHEESE_NAMES = k %w[Elevate Crosspointe Recreate Encounter Kinetic Pulse Resurgence TheCore StarChurch Churchopolis Reproduce Verve Insurgence TheConnectingPoint] unless const_defined? :CHEESE_NAMES
-    DENOMINATIONS = k %w[Evangelical Christian Pentecostal Lutheran Catholic Reformed Presbyterian Baptist Charismatic United] unless const_defined? :DENOMINATIONS
+    CHEESE_NAMES = k %w[Churchopolis Crosspointe Elevate Encounter Insurgence Kinetic Pulse Recreate Reproduce Resurgence StarChurch TheConnectingPoint TheCore Veritas Verve Victory] unless const_defined? :CHEESE_NAMES
+    DENOMINATIONS = k %w[Baptist Catholic Charismatic Christian Evangelical Foursquare Lutheran Pentecostal Presbyterian Reformed United] unless const_defined? :DENOMINATIONS
   end
 end
