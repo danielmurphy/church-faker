@@ -25,8 +25,8 @@ module FFaker
     end
 
     LEVELS = k %w[Senior Campus Central Internal Associate Executive] unless const_defined? :LEVELS
-    DESCRIPTORS = k %w[Administrative Children's Connections Creative Facilities High\ School Middle\ School Ministry Preschool Small\ Groups Spiritual\ Formation Worship Youth] unless const_defined? :DESCRIPTORS
-    JOBS = k %w[Assistant Director Intern Minister Pastor] unless const_defined? :JOBS
+    DESCRIPTORS = k %w[Administrative Children's Connections Creative Facilities High\ School Middle\ School Ministry Operations Preschool Small\ Groups Spiritual\ Formation Worship Youth] unless const_defined? :DESCRIPTORS
+    JOBS = k %w[Assistant Director Intern Leader Minister Pastor] unless const_defined? :JOBS
 
   end
 end
