@@ -1,10 +1,14 @@
-module Faker
+module FFaker
   module Church
     extend ModuleUtils
     extend self
 
     def job_title
-      "#{level} #{descriptor} #{job}"
+      case rand(3)
+        when 0 then "#{level} #{descriptor} #{job}"
+        when 1 then "#{descriptor} #{job}"
+        when 2 then "#{level} #{job}"
+      end
     end
 
     private
@@ -20,9 +24,9 @@ module Faker
       JOBS.sample
     end
 
-    DESCRIPTORS = k ["Youth", "Spiritual Formation", "Children's", "Ministry", "Worship", "Preschool", "Connections", "Small Groups", "High School", "Middle School", "Facilities", "Administrative"] unless const_defined? :DESCRIPTORS
-    LEVELS = k %w[Senior Central Internal Associate Executive] unless const_defined? :LEVELS
-    JOBS = k %w[Intern Minister Assistant Pastor] unless const_defined? :JOBS
+    LEVELS = k %w[Senior Campus Central Internal Associate Executive] unless const_defined? :LEVELS
+    DESCRIPTORS = k %w[Administrative Children's Connections Creative Facilities High\ School Middle\ School Ministry Operations Preschool Small\ Groups Spiritual\ Formation Worship Youth] unless const_defined? :DESCRIPTORS
+    JOBS = k %w[Assistant Director Intern Leader Minister Pastor] unless const_defined? :JOBS
 
   end
 end
