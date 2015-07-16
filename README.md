@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-    Faker::Church.name
+    FFaker::Church.name
     => "First United Church of Lake Ayana"
 
 ## Contributing
